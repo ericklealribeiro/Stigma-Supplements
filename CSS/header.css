@@ -1,0 +1,110 @@
+header{
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: #000000;
+}
+#teste{
+    position: absolute;
+    top: 800px;
+    width: 600px;
+    height: 300px;
+    overflow: hidden
+}
+#btnSideMenu{
+    position: relative;
+    left: 160px;
+    top: 45px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #ffffff2e;
+    transition: .2s;
+}
+
+
+#menuIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.burguer {
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #000000;
+    transition: .4s;
+    position: relative;
+}
+
+.burguer:nth-child(1){
+    
+}
+.burguer:nth-child(2){
+    margin: 5px;
+}
+/*.menu__icon .burguer+.burguer {
+    margin-top: .375rem;
+}
+  
+.menu__icon .burguer:nth-child(1) {
+    animation: ease .8s menu-icon-top-2 forwards;
+}
+  
+.menu__icon .burguer:nth-child(2) {
+    animation: ease .8s menu-icon-scaled-2 forwards;
+}
+  
+.menu__icon .burguer:nth-child(3) {
+    animation: ease .8s menu-icon-bottom-2 forwards;
+}
+  
+.menu__icon:hover .burguer:nth-child(1) {
+    animation: ease .8s menu-icon-top forwards;
+}
+  
+.menu__icon:hover .burguer:nth-child(2) {
+    animation: ease .8s menu-icon-scaled forwards;
+}
+  
+.menu__icon:hover .burguer:nth-child(3) {
+    animation: ease .8s menu-icon-bottom forwards;
+    background-color: rgb(255, 59, 48);
+} */
+
+#logoHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  transition: .2s;
+}
+#logoHomeH1{
+  font-family: 'DM Sans', sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  height: 37px;
+  letter-spacing: .3rem;
+  display: flex;
+  align-items: center;
+  transition: .2s;
+}
+#logoHomeH3{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: .2rem;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  transition: .2s;
+}

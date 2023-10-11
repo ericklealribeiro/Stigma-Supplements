@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/carousel.css">
+    <title>e se...</title>
+</head>
+<body>
+<header>
+    <div id="btnSideMenu" onclick="openMenu()">
+        <div id="menuIcon">
+            <div class="burguer"></div>
+            <div class="burguer"></div>
+            <div class="burguer"></div>
+        </div>
+    </div>
+
+    <div id="logoHome">
+        <h1 id="logoHomeH1">STIGMA</h1>
+        <h3 id="logoHomeH3">SUPPLEMENTS</h3>
+    </div>
+    <nav>
+
+    </nav>
+</header>
+<section id="home">
+    <div id="slideContainer">
+        <li>
+            <img id="img1" src="images/gym02.jpg">
+            <img id="img2" src="images/gym08.jpg">
+            <img id="img3" src="images/gym15home.jpg">
+            <img id="img4" src="images/gym19home.jpg">
+            <img id="img5" src="images/gym21home.jpg">
+            <div id="overlay"></div>
+        </li> 
+    </div>
+
+    <div id="homeBtns">
+        <div id="homeBtnLeft" onclick="homeBtnLeft()">
+            <i class="bi bi-chevron-left"></i>
+        </div>
+        <div id="homeBtnRight" onclick="homeBtnRight()">
+            <i class="bi bi-chevron-right"></i>
+        </div>
+    </div>
+</section>
+<script src="JavaScript/script.js"></script>
+<script src="JavaScript/header.js"></script>
+<script src="JavaScript/slides.js"></script>
+</body>
+</html>
