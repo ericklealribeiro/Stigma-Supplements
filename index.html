@@ -7,16 +7,34 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/carousel.css">
+    <link rel="stylesheet" href="CSS/sidemenu.css">
     <title>e se...</title>
 </head>
 <body>
-<header>
-    <div id="btnSideMenu" onclick="openMenu()">
-        <div id="menuIcon">
-            <div class="burguer"></div>
-            <div class="burguer"></div>
-            <div class="burguer"></div>
+<header id="header">
+    <div id="btnSideMenu">
+        <div id="menuIcon" onclick="openMenu()">
+            <i class="bi bi-list"></i>
         </div>
+        <div id="menuIcon2" onclick="closeMenu()">
+            <i class="bi bi-x"></i>
+        </div>
+    </div>
+    <div id="sideMenu">
+        <h1>STIGMA</h1>
+        <div id="perfilSideMenu">
+            <i class="bi bi-person"></i>
+        </div>
+        <div id="linhaSideMenu"></div>
+        <a href="#" id="catalogoSideMenu">CATALOGO</a>
+        <a href="#" id="termogenicosSideMenu">TERMOGENICOS</a>
+        <a href="#" id="proteinaSideMenu">PROTEÍNAS</a>
+        <a href="#" id="aminoacidosSideMenu">AMINOÁCIDOS</a>
+        <a href="#" id="preTreinoSideMenu">PRÉ-TREINOS</a>
+        <a href="#" id="hiperCaloricoSideMenu">HÍPER-CALÓRICOS</a>
+        <a href="#" id="vitaminaSideMenu">VITAMINAS</a>
+        <a href="#" id="kitsSideMenu">KITS</a>
+        <div id="linhaSideMenu2"></div>
     </div>
 
     <div id="logoHome">
@@ -51,5 +69,6 @@
 <script src="JavaScript/script.js"></script>
 <script src="JavaScript/header.js"></script>
 <script src="JavaScript/slides.js"></script>
+<script src="JavaScript/sideMenu.js"></script>
 </body>
 </html>

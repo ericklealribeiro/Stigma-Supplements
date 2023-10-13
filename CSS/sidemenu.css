@@ -1,0 +1,126 @@
+#menuIcon {
+    z-index: 2;
+    position: relative;
+    left: 160px;
+    top: 45px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #5f0000;
+    transition: .3s ease-in-out;
+}
+#menuIcon:hover{
+    cursor: pointer;
+    background-color: #1d1d1d;
+    border: .8rem ;
+}
+#menuIcon > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #eaeaea;
+    transition: .2s
+    ease-in-out;
+}
+#menuIcon > i:hover{
+    color: #780000;
+}
+
+#menuIcon2 {
+    z-index: 0;
+    position: relative;
+    left: 160px;
+    top: 6px;
+    width: 39px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #5f0000;
+    transition: .3s;
+    opacity: 0;
+}
+#menuIcon2:hover{
+    cursor: pointer;
+    background-color: #1d1d1d;
+    border: .8rem ;
+}
+#menuIcon2 > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 37px;
+    color: #eaeaea;
+    transition: .2s;
+}
+#menuIcon2 > i:hover{
+    color: #780000;
+}
+
+
+#sideMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    width: 430px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: -430px;
+    border-right: 1px solid #000000;
+    padding: 40px 0 0 17px;
+    transition: .3s;
+}
+#sideMenu > h1{
+    font-family: 'DM Sans', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    height: 37px;
+    letter-spacing: .3rem;
+    display: flex;
+    align-items: center;
+}
+
+#perfilSideMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 40px;
+    top: 43px;
+    width: 30px;
+    height: 30px;
+}
+#perfilSideMenu > i{
+    color: white;
+    font-size: 30px;
+}
+
+#linhaSideMenu{
+    width: 390px;
+    height: 1px;
+    color: white;
+    border-top: 1px solid #ffffff;
+    margin: 40px 0px 30px 0;
+}
+#linhaSideMenu2{
+    position: absolute;
+    bottom: 130px;
+    width: 390px;
+    height: 1px;
+    color: white;
+    border-top: 1px solid #ffffff;
+}
+
+#sideMenu > a{
+    font-family: "DM Sans", sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+    height: 50px;
+}

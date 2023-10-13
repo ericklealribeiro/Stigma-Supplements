@@ -5,7 +5,7 @@
 html{
     scroll-behavior: smooth;
     background-color: #232323;
-    height: 400vh;
+    height: 500vh;
 }
 :root{
     --cor0: #C40000;
@@ -15,7 +15,6 @@ html{
     --cor4: #450000;
 }
 body{
-    background: linear-gradient(180deg, #000 9.74%, #232323 22.22%);
     background-repeat: no-repeat;
 }
 
