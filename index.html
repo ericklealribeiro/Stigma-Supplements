@@ -8,10 +8,13 @@
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/carousel.css">
     <link rel="stylesheet" href="CSS/sidemenu.css">
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/metas.css">
     <title>e se...</title>
 </head>
 <body>
 <header id="header">
+
     <div id="btnSideMenu">
         <div id="menuIcon" onclick="openMenu()">
             <i class="bi bi-list"></i>
@@ -20,6 +23,7 @@
             <i class="bi bi-x"></i>
         </div>
     </div>
+
     <div id="sideMenu">
         <h1>STIGMA</h1>
         <div id="perfilSideMenu">
@@ -41,17 +45,29 @@
         <h1 id="logoHomeH1">STIGMA</h1>
         <h3 id="logoHomeH3">SUPPLEMENTS</h3>
     </div>
-    <nav>
 
-    </nav>
+    <div id="perfilHome">
+        <i class="bi bi-person"></i>
+    </div>
 </header>
+
+<nav>
+    <a href="#">TERMOGENICOS</a>
+    <a href="#">PROTEÍNAS</a>
+    <a href="#">AMINOÁCIDOS</a>
+    <a href="#">KITS</a>
+    <a href="#">HÍPER-CALÓRICOS</a>
+    <a href="#">VITAMINAS</a>
+    <a href="#">PRÉ-TREINOS</a>
+</nav>
+
 <section id="home">
     <div id="slideContainer">
         <li>
             <img id="img1" src="images/gym02.jpg">
-            <img id="img2" src="images/gym08.jpg">
-            <img id="img3" src="images/gym15home.jpg">
-            <img id="img4" src="images/gym19home.jpg">
+            <img id="img2" src="images/gym15home.jpg">
+            <img id="img3" src="images/gym19home.jpg">
+            <img id="img4" src="images/gym08.jpg">
             <img id="img5" src="images/gym21home.jpg">
             <div id="overlay"></div>
         </li> 
@@ -65,6 +81,35 @@
             <i class="bi bi-chevron-right"></i>
         </div>
     </div>
+</section>
+
+<section id="metas">
+
+    <div id="titleMetas">
+        <h1>QUAL SUA META?</h1>
+        <div id="linhaMeta"></div>
+    </div>
+    
+    <div id="cardsContainer">
+        <div id="hipertrofiaCard">
+            <img src="images/gym10metas.png">
+            <h2>HIPERTROFIA</h2>
+        </div>
+        <div id="emagrecimentoCard">
+            <img src="images/gym18metas.png">
+            <h2>EMAGRECIMENTO</h2>
+        </div>
+        <div id="energiaCard">
+            <img src="images/gym25metas.png">
+            <h2>ENERGIA</h2>
+        </div>
+        <div id="definiçaoCard">
+            <img src="images/gym06metas.png">
+            <h2>DEFINIÇÃO</h2>
+        </div>
+    </div>
+    
+
 </section>
 <script src="JavaScript/script.js"></script>
 <script src="JavaScript/header.js"></script>

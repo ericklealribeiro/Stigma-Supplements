@@ -1,8 +1,8 @@
-
-
+setInterval(function(){
+    homeBtnRight();
+}, 5000);
 
 let count = 1;
-
 
 function homeBtnRight(){
     count++;

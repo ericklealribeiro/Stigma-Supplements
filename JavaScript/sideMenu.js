@@ -26,6 +26,6 @@ function closeMenu(){
     document.getElementById('menuIcon').style.zIndex='2'
     document.getElementById('menuIcon2').style.zIndex='0'
     document.getElementById('menuIcon2').style.left='160px'
-    document.getElementById('menuIcon2').style.top='6px'
+    document.getElementById('menuIcon2').style.top='-15px'
     document.getElementById('menuIcon2').style.opacity='0'
 }

@@ -5,7 +5,6 @@
 html{
     scroll-behavior: smooth;
     background-color: #232323;
-    height: 500vh;
 }
 :root{
     --cor0: #C40000;
