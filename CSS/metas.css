@@ -82,9 +82,29 @@
 
 
 #objectivesMetas{
+    position: relative;
+    top: -75px;
     display: flex;
     align-items: center;
     text-align: center;
     place-content: center;
-    height: 380px;
+    height: 330px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#objectivesMetas > h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 45px;
+    height: 170px;
+    position: relative;
+    color: #ffffff;
+    text-shadow: 0 0 5px #00000082;
+}
+#objectivesMetas > h1:nth-child(1){
+    right: 200px;
+}
+#objectivesMetas > h1:nth-child(2){
+    left: 200px;
 }
