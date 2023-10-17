@@ -26,6 +26,7 @@
     height: 730px;
     border-radius: 25px;
     overflow: hidden;
+    text-shadow: -3px -3px 0px #780000;
 }
 #slideContainer > li{
     display: flex;
@@ -34,27 +35,27 @@
 #img1{
     position: absolute;
     left: 0px;
-    transition: .4s;
+    transition: .6s;
 }
 #img2{
     position: absolute;
     left: 1600px;
-    transition: .4s;
+    transition: .6s;
 }
 #img3{
     position: absolute;
     left: 1600px;
-    transition: .4s;
+    transition: .6s;
 }
 #img4{
     position: absolute;
     left: 1600px;
-    transition: .4s;
+    transition: .6s;
 }
 #img5{
     position: absolute;
     left: -1600px;
-    transition: .4s;
+    transition: .6s;
 }
 
 #homeBtns{

@@ -54,7 +54,10 @@
   cursor: pointer;
   background-color: #5f0000;
 }
-#perfilHome > i{
+#perfilHome > a{
+  text-decoration: none;
+}
+#perfilHome > a > i{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,6 +65,6 @@
   font-size: 30px;
   transition: .3s;
 }
-#perfilHome > i:hover{
+#perfilHome > a > i:hover{
   color: #303030;
 }

@@ -33,13 +33,14 @@
     justify-content: center;
     align-items: center;
 }
-#cardsContainer > div{
+#cardsContainer > a{
+    text-decoration: none;
     border-radius: 10px;
     height: 725px;
     width: 400px;
     overflow: hidden;
 }
-#cardsContainer > div > h2{
+#cardsContainer > a > h2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,59 +48,43 @@
     height: 30px;
     bottom: 120px;
     font-family: 'DM Sans',sans-serif;
+    color: #780000;
+    transition: .3s ease-in-out;
+}
+#cardsContainer > a:hover > h2{
+    text-shadow: -3px -3px 0px #780000;
     color: white;
+}
+#cardsContainer > a > img{
+    filter: grayscale(100%);
+    position: relative;
+    transition: .3s ease-in-out;
+}
+#cardsContainer > a > img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
 }
 
 #hipertrofiaCard{
     margin-right: 15px;  
 }
-#hipertrofiaCard > img{
-    filter: grayscale(100%);
-    position: relative;
-    transition: .3s ease-in-out;
-}
-#hipertrofiaCard > img:hover{
-    filter: grayscale(0%);
-    cursor: pointer;
-}
-
 #emagrecimentoCard{
     margin-left: 15px;
     margin-right: 15px;
 }
-#emagrecimentoCard > img{
-    filter: grayscale(100%);
-    position: relative;
-    transition: .2s ease-in-out;
-}
-#emagrecimentoCard > img:hover{
-    filter: grayscale(0%);
-    cursor: pointer;
-}
-
 #energiaCard{
     margin-left: 15px;
     margin-right: 15px;
 }
-#energiaCard > img{
-    filter: grayscale(100%);
-    position: relative;
-    transition: .3s ease-in-out;
-}
-#energiaCard > img:hover{
-    filter: grayscale(0%);
-    cursor: pointer;
-}
-
 #definiçaoCard{
     margin-left: 15px;
 }
-#definiçaoCard > img{
-    filter: grayscale(100%);
-    position: relative;
-    transition: .3s ease-in-out;
-}
-#definiçaoCard > img:hover{
-    filter: grayscale(0%);
-    cursor: pointer;
+
+
+#objectivesMetas{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    place-content: center;
+    height: 380px;
 }
