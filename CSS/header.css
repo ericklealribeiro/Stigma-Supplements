@@ -62,9 +62,8 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 30px;
+  font-size: 27px;
   transition: .3s;
 }
-#perfilHome > a > i:hover{
-  color: #303030;
-}
+
+

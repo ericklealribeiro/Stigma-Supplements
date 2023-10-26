@@ -1,0 +1,39 @@
+#bagIcon{
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #303030;
+    transition: .2s ease-in-out;
+}
+#bagIcon:hover{
+    cursor: pointer;
+    background-color: #5f0000;
+}
+#bagIcon > i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    transition: .3s;
+    text-decoration: none;
+}
+  
+
+#bag{
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    background-color: #232323;
+    width: 380px;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: -380px;
+    border-left: 1px solid #000000;
+    padding: 25px 0 0 25px;
+    transition: .3s;
+}

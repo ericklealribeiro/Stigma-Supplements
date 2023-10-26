@@ -26,10 +26,6 @@
     transition: .2s
     ease-in-out;
 }
-#menuIcon > i:hover{
-    color: #1d1d1d;
-}
-
 #menuIcon2 {
     z-index: 0;
     position: relative;
@@ -95,6 +91,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    transition: .2s;
 }
 #perfilSideMenu:hover{
     cursor: pointer;
@@ -107,10 +104,6 @@
     justify-content: center;
     color: white;
     font-size: 30px;
-    transition: .2s;
-}
-#perfilSideMenu > i:hover{
-    color: #5f0000;
 }
 #linhaSideMenu{
     width: 390px;
